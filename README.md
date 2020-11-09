@@ -6,5 +6,5 @@ Dependencies:
 * https://github.com/catkin/catkin_simple
 
 Installation:
-Place all packages in your ros-noetic workspace.
-Call catkin_make.
+1. Place all packages in your ros-noetic workspace.
+2. Call catkin_make.
