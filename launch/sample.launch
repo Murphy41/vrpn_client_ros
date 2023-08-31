@@ -1,6 +1,9 @@
 <launch>
 
-  <arg name="server" default="192.168.1.102"/>
+  <arg name="server" default="192.168.1.103"/>
+  
+  <node pkg="tf2_ros" type="static_transform_publisher" name="Y_up2Z_upTF"
+        args="0.0 0.0 0.0 0.0 0.0 1.5707963268 map world" />
 
   <node pkg="vrpn_client_ros" type="vrpn_client_node" name="vrpn_client_node" output="screen">
     <rosparam subst_value="true">
